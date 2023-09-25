@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="412dp"
+        android:layout_height="45dp"
+        android:background="@android:color/holo_purple"
+        android:ems="10"
+        android:inputType="text"
+        android:text="BMI Calculator"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="text"
+        android:text="BMI Calculator"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Your Height in Cm"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Your Weight in Kg"
+        android:textSize="10sp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="394dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="165"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="391dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="64"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="396dp"
+        android:layout_height="47dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Calculate"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <EditText
+        android:id="@+id/editTextText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:ems="10"
+        android:fontFamily="sans-serif-light"
+        android:inputType="text"
+        android:text="Your Result"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="534dp" />
+
+    <EditText
+        android:id="@+id/editTextText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:ems="10"
+        android:fontFamily="sans-serif-light"
+        android:inputType="text"
+        android:text="23.5"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="586dp" />
+
+    <EditText
+        android:id="@+id/editTextText9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:ems="10"
+        android:fontFamily="sans-serif-light"
+        android:inputType="text"
+        android:text="Normal"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="636dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
