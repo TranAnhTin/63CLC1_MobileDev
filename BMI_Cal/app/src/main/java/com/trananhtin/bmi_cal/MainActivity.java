@@ -21,10 +21,10 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Float WE=Float.parseFloat(String.valueOf(editText_WE.getText()))/100;
+                Float WE=Float.parseFloat(String.valueOf(editText_WE.getText()));
                 Float HE=Float.parseFloat(String.valueOf(editText_HE.getText()));
                 float kq;
-                kq=WE/(HE*HE);
+                kq=(WE/HE/HE)*10000;
                 textview.setText("Your Result\n"+String.valueOf(kq));
             }
         });
