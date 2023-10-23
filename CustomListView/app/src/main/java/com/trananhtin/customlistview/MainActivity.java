@@ -22,6 +22,5 @@ public class MainActivity extends AppCompatActivity {
         CountryArrayAdaper adaper;
         adaper=new CountryArrayAdaper(dsQG,this);
         lvQG.setAdapter(adaper);
-
     }
 }

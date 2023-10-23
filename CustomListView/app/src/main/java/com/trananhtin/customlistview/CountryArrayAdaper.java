@@ -51,8 +51,8 @@ public class CountryArrayAdaper extends BaseAdapter {
             view=inflater.inflate(R.layout.country_item_layout,null);
             itemViewHolder=new CountryItemViewHolder();
             itemViewHolder.flagView=view.findViewById(R.id.imageViewFlag);
-            itemViewHolder.countryNameView=view.findViewById(R.id.textViewName);
-            itemViewHolder.populationView=view.findViewById(R.id.textViewPop);
+            itemViewHolder.countryNameView=view.findViewById(R.id.textViewCountryName);
+            itemViewHolder.populationView=view.findViewById(R.id.textViewPopulation);
             view.setTag(itemViewHolder);
         }
         else{
