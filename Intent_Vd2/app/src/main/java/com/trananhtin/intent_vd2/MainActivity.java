@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data){
-        if(resultCode==8000)
+        if(resultCode==8000){
             if(resultCode==RESULT_OK){
                 String hoTenNhanDuoc=data.getStringExtra("HT");
                 int namSinhNhanDuoc=data.getIntExtra("NS",2023);
@@ -33,8 +33,9 @@ public class MainActivity extends AppCompatActivity {
                 tvName.setText(hoTenNhanDuoc);
                 tvBirth.setText(String.valueOf(namSinhNhanDuoc));
             }
-        else
-            Toast.makeText(this,"Trả về thất bại",Toast.LENGTH_LONG);
+            else
+                Toast.makeText(this,"Trả về thất bại",Toast.LENGTH_LONG);
+        }
         else
             super.onActivityResult(requestCode,resultCode,data);
     }
