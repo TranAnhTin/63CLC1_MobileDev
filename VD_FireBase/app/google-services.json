@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "862060799078",
+    "project_id": "vdfirebase-2a24d",
+    "storage_bucket": "vdfirebase-2a24d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862060799078:android:204e4432763673bb22f9a7",
+        "android_client_info": {
+          "package_name": "com.trananhtin.vd_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBidnTN9lRrK7AXLF_sTGMrhLOYqtsVgn4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
