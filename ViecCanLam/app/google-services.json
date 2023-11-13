@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "707843083034",
+    "project_id": "vieccanlam-dbf7e",
+    "storage_bucket": "vieccanlam-dbf7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707843083034:android:a9a8cc65085c87ca553aa3",
+        "android_client_info": {
+          "package_name": "com.trananhtin.vieccanlam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEtxsfERPdKrD42OGxqaROWuyDhh4esQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
